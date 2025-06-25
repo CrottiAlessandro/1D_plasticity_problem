@@ -1,0 +1,72 @@
+# =================
+# MATLAB & Simulink
+# =================
+# MATLAB files
+*.asv
+*.bak
+*.mex*
+*.p
+*.slx.r20*
+*.slxc
+*.orig
+*.autosave
+*.rpt
+*.sldd
+
+# MATLAB error logs
+*.log
+MATLAB_Editor_State.xml
+
+# MATLAB search path
+pathdef.m
+
+# MATLAB instrument control
+*.mdf
+
+# MATLAB profiler
+prof.log
+
+# MATLAB Compiler
+*_mcr
+*mcr.app
+/deploy/
+/distrib/
+/for_redistribution/
+/for_testing/
+
+# --- SIMULINK ---
+# Simulink files
+*.slx.autosave
+*.slx.mdl
+*.slx.bak
+*.mdl.autosave
+*.mdl.bak
+*.slxc.autosave
+*.slxc.bak
+*.s~
+
+# Simulink code generation
+slprj/
+
+# =================
+# LaTeX
+# =================
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+_build/
+
+# =================
+# OS Generated files
+# =================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
